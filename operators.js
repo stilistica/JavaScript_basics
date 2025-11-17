@@ -52,5 +52,112 @@ let user = { name: null, age: 0 };
 
 // console.log(user.name ?? "Default Name"); // "Default Name"
 // console.log(user.age ?? 18); // 0
-let val = (x !== null && x !== undefined) ? x : defaultValue;
-let valNew = x ?? defaultValue;
+// let val = (x !== null && x !== undefined) ? x : defaultValue;
+// let valNew = x ?? defaultValue;
+
+// умовні оператори
+// https://uk.javascript.info/ifelse
+// https://uk.javascript.info/switch
+// https://www.youtube.com/watch?v=PJF2cB4kLso
+
+// if
+const year = 2025;
+if (year <= 2025) {
+  // console.log('this true')
+}
+
+// if / else
+if (year === 2045) {
+  // console.log('done');
+} else {
+  // console.log('error')
+}
+
+// if / else if / else
+let time = null;
+
+if (year < 2025) {
+  time = "past";
+} else if (year > 2025) {
+  time = "future";
+} else {
+  time = "present";
+}
+// console.log(time);
+
+// тернарний оператор
+// let result = умова ? значення1 : значення2;
+age = 17;
+let canDrive = age >= 18 ? "Yes" : "No";
+// console.log(canDrive);
+let canDriveBike =
+  age < 16 ? "No" : age < 18 ? "Yes, but only bike" : "Yes and car";
+// console.log(canDriveBike);
+
+let result;
+if (a + b < 4) {
+  result = "Нижче";
+} else {
+  result = "Вище";
+}
+result = a + b < 4 ? "Нижче" : "Вище";
+
+let message;
+if (login == "Працівник") {
+  message = "Привіт";
+} else if (login == "Директор") {
+  message = "Вітаю";
+} else if (login == "") {
+  message = "Немає логіну";
+} else {
+  message = "";
+}
+message =
+  login == "Працівник"
+    ? "Привіт"
+    : login == "Директор"
+    ? "Вітаю"
+    : login == ""
+    ? "Немає логіну"
+    : "";
+
+// switch
+//  Значення повинні бути однакового типу
+let a = 2 + 2;
+let mes = null;
+switch (a) {
+  case 3:
+    mes = "Not enough";
+    break;
+  case 4:
+    mes = "Exactly";
+    break;
+  case 5:
+  case 6:
+    mes = "Too much";
+    break;
+  default:
+    mes = "Dont know";
+}
+
+// if (a == 0) {
+//   alert(0);
+// }
+// if (a == 1) {
+//   alert(1);
+// }
+// if (a == 2 || a == 3) {
+//   alert("2,3");
+// }
+switch (a) {
+  case 0:
+    mes = "0";
+    break;
+  case 1:
+    mes = "1";
+    break;
+  case 2:
+  case 3:
+    mes = "2, 3";
+    break;
+}
