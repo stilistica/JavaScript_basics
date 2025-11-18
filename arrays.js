@@ -149,7 +149,7 @@ let arrNames = names.split(", "); // можна виконати обмежен�
 // item – черговий елемент масиву,
 // index – його індекс,
 // array – сам масив.
-[1, 2, 3, 4, 5].reduce((sum, current) => sum + current, 0);
+// [1, 2, 3, 4, 5].reduce((sum, current) => sum + current, 0);
 // при відсутності initial в якості першого значення береться перший елемент масиву, а перебір стартує з другого
 
 // reduceRight працює аналогічно, але проходить по масиву справа наліво
@@ -212,36 +212,36 @@ styles.unshift("Rap", "Reggae");
 // getMaxSubSum([-1, 2, 3, -9, 11]) == 11
 // getMaxSubSum([-2, -1, 1, 2]) == 3
 
-function getMaxSubSum(arr) {
-  let maxSum = 0;
-  let partialSum = 0;
+// function getMaxSubSum(arr) {
+//   let maxSum = 0;
+//   let partialSum = 0;
 
-  for (let el of arr) {
-    partialSum += el;
-    maxSum = Math.max(maxSum, partialSum);
-    if (partialSum < 0) partialSum = 0;
-  }
-  return maxSum;
-}
+//   for (let el of arr) {
+//     partialSum += el;
+//     maxSum = Math.max(maxSum, partialSum);
+//     if (partialSum < 0) partialSum = 0;
+//   }
+//   return maxSum;
+// }
 // console.log(getMaxSubSum([2, -1, 2, 3, -9]));
 
 // 2. Напишіть функцію camelize(str), яка перетворює такі рядки “my-short-string” в “myShortString”.
 // Тобто дефіси видаляються, а всі слова після них починаються з великої літери.
-function camelize(str) {
-  let result = str
-    .split("-")
-    .map((word, index) =>
-      index == 0 ? word : word[0].toUpperCase() + word.slice(1)
-    )
-    .join("");
-  console.log(result);
-}
+// function camelize(str) {
+//   let result = str
+//     .split("-")
+//     .map((word, index) =>
+//       index == 0 ? word : word[0].toUpperCase() + word.slice(1)
+//     )
+//     .join("");
+//   console.log(result);
+// }
 // camelize("-webkit-transition");
 
 // 4. Hапишіть функцію shuffle(array), яка перемішує (випадковим чином переставляє) елементи масиву.
-function shuffle(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    let j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+// function shuffle(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     let j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+// }

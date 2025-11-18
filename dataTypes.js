@@ -60,7 +60,7 @@ let undef;
 // console.log(typeof undef);
 // bigint
 
-// ----------- symbol
+// ----------- symbol - має унікальний індифікатор завжди
 let id = Symbol("id");
 // console.log(typeof id);
 Symbol("id") !== Symbol("id"); // вони завжди будуть різні.
