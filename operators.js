@@ -94,13 +94,13 @@ let canDriveBike =
   age < 16 ? "No" : age < 18 ? "Yes, but only bike" : "Yes and car";
 // console.log(canDriveBike);
 
-let result;
-if (a + b < 4) {
-  result = "Нижче";
-} else {
-  result = "Вище";
-}
-result = a + b < 4 ? "Нижче" : "Вище";
+// let result;
+// if (a + b < 4) {
+//   result = "Нижче";
+// } else {
+//   result = "Вище";
+// }
+// result = a + b < 4 ? "Нижче" : "Вище";
 
 let message;
 if (login == "Працівник") {
@@ -123,8 +123,8 @@ message =
 
 // switch
 //  Значення повинні бути однакового типу
-let a = 2 + 2;
-let mes = null;
+// let a = 2 + 2;
+// let mes = null;
 switch (a) {
   case 3:
     mes = "Not enough";
