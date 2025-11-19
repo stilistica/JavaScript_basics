@@ -42,6 +42,17 @@
 // console.log(doNothing()) // undefined
 //  не додавайте новий рядок між return і значенням (довгий вираз обгортається в дужки)
 
+// function getArgumets() {
+//   if (!arguments.length) {
+//     console.log("empty");
+//   }
+//   for (let argument of arguments) {
+//     console.log(argument);
+//   }
+// }
+// getArgumets(1, 2, 3, 4, 5);
+// Стрілкові функції - немають аргументів
+
 // ЗАВДАННЯ:
 // 1.Наступна функція повертає true, якщо параметр age більший за 18.
 // Інакше вона запитує підтвердження через confirm і повертає його результат:
