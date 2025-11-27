@@ -2,6 +2,9 @@
 // https://www.youtube.com/watch?v=QY-ZldUrvZA
 // https://www.youtube.com/watch?v=AQZCP3Tmgg0
 
+
+// з об'єктом !!!
+
 // Рекурсія — це коли функція викликає сама себе.
 // Але є два важливі правила:
 // 1️⃣ Має бути базовий випадок
