@@ -1,6 +1,7 @@
 // Symbol, Iterators, Generators
 
 // https://www.youtube.com/watch?v=7wtbNNiOh30
+// https://uk.javascript.info/symbol
 
 // Symbol
 //  — це унікальне значення, яке найчастіше використовується як ключ в об'єктах.
