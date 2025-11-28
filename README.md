@@ -1,4 +1,4 @@
-# основи JavaScript
+## основи JavaScript
 
 - [Основні типи даних](./dataTypes.js) — приклади в `dataTypes.js`  
 - [Логічні оператори](./operators.js) — приклади в `operators.js`  
@@ -19,3 +19,11 @@
 - [Регулярні вирази (RegExp)](./regexp.js) — приклади в `regexp.js`  
 - [Symbol, Iterators, Generators](./sig.js) — приклади в `sig.js`  
 - [JSON](./json.js) — приклади в `json.js`  
+
+
+## основи Ajax
+- [Робота із запитами на AJAX XMLHttpRequest](./requests.js) — приклади в `requests.js`  
+- [getElementByID()](./getElementBy.js) — приклади в `getElementBy.js`  
+- [getElementBy…()](./operators.js) — приклади в `operators.js`  
+- [Оператори циклу](./cycles.js) — приклади в `cycles.js`  
+- [Класи](./class.js) — приклади в `class.js`  
